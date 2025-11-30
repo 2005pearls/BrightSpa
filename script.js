@@ -548,7 +548,7 @@ document.addEventListener("DOMContentLoaded", function() {
         addServiceForm.reset();
         
         if (confirm("Go back to Dashboard?")) {
-            window.location.href = "Provider.html";
+            window.location.href = "provider.html";
         }
     }
 
@@ -738,6 +738,7 @@ if (!email.checkValidity()) {
         return true;
     }
 });
+
 
 
 
