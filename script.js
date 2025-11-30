@@ -555,7 +555,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 	function cancelAddService() {
     if (confirm("Are you sure you want to cancel? Any unsaved changes will be lost.")) {
-        window.location.href = "Provider.html";
+        window.location.href = "provider.html";
     }
 }
 
@@ -738,5 +738,6 @@ if (!email.checkValidity()) {
         return true;
     }
 });
+
 
 
